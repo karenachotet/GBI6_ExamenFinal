@@ -64,7 +64,7 @@ Ustedes estan utilizando el R Markdown. Las instruciones son:
 
 -   Asegúrese de responder explícitamente cada una de las preguntas.
 
-Para comprender la data de esta evaluación se requiere conocer el significado de algunos acrónimos de los tipos de cancer como indica el [Broad Institute Cancer Names](https://gdac.broadinstitute.org/). Asimismo revise la información de ayuda para ```expresionsTCGA```. La data contiene las columnas: 
+Para comprender la data de esta evaluación se requiere conocer el significado de algunos acrónimos de los tipos de cancer como indica el [Broad Institute Cancer Names](/). Asimismo revise la información de ayuda para ```expresionsTCGA```. La data contiene las columnas: 
 
 - **bcr_patient_barcode**: es el identificador del paciente. 
 
@@ -354,9 +354,12 @@ ggsave("result/regresion11.pdf", width = 6, height = 8, dpi = 300)
 ### [1 PUNTO] 2.7. Interprete los resultados de las figuras ```boxplot3.png``` y ```regresion11.pdf```.
 
 ```{tex}
-# Esciba aquí su intepretación
-
-```
+# Interpreación sobre boxplot3.png
+#La gráfica de LUCS muestra la distribución de los datos muestran el nivel de
+expresion de la enfermedad LUCS(Lung squamous cell carcinoma). Según la 
+media, se puede considerar que el nivel de expresion de los genes de la 
+enfermedad son bajos ya que los datos se encientran por debajo del #5o% de la 
+media
 
 ## 3. CONTROL DE LA VERSIÓN [1 PUNTO]. Se verficará en ell repositorio de GitHub. 
 
