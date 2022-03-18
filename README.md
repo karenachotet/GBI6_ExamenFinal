@@ -9,4 +9,4 @@ Nombre del dispositivo DESKTOP-8DSECKU Procesador Intel(R) Core(TM) i3-7020U CPU
 
 Versión de R: RStudio Desktop 2022.02.0+443
 
-Explicación de la data utilizada: DNase, países de los andes, paises de América.
+Explicación de la data utilizada: https://gdac.broadinstitute.org/
